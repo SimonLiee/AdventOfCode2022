@@ -11,11 +11,9 @@ if (args.Length == 1)
     return 1;
 }
 
-Input inn = new Input(file);
-
 // Calculate answer for both parts
+Input inn = new Input(file);
 Part1 p1 = new Part1(inn);
-
 inn = new Input(file);
 Part2 p2 = new Part2(inn);
 
