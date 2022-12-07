@@ -1,5 +1,5 @@
 ﻿class Part2 {
-    public string answer;
+    public string? answer;
     public Part2(Input inn) {
         Stack<char> tmpS = new Stack<char>();
         // Create answer by reading top of each stack
