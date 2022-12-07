@@ -1,6 +1,8 @@
 ﻿class Part1 {
     public int answer;
     public Part1(Input inn) {
+        if(inn.lines == null)
+            return;
         string line = inn.lines[0];
 
         string marker = "";

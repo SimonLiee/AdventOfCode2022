@@ -1,5 +1,5 @@
 ﻿class Part1 {
-    public string answer;
+    public string? answer;
     public Part1(Input inn) {
 
         char tmp;
